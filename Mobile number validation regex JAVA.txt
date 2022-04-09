@@ -1,0 +1,16 @@
+package com.mrprk;
+
+ class MobileNumberValidate {
+
+	public static void main(String[] args) {
+
+        String str = "9123456789";
+
+        if(str.matches("[789][0-9]{9}")) {
+        	
+            System.out.println("Yes, true.");
+        } else {
+            System.out.println("failed!");
+        }
+    }
+}
